@@ -1,0 +1,12 @@
+docker build -t fresh_indexing .
+docker run --rm -it -p 8000:8000 fresh_indexing
+
+Then you can hit:
+
+http://localhost:8000/health
+
+http://localhost:8000/metrics
+
+And emit demo updates (from another terminal):
+
+docker exec -it $(docker ps -qf name=fresh_indexing) python -m app.cdc demo-updates
