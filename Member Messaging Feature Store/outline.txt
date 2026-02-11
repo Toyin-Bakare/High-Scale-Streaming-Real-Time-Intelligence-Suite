@@ -1,0 +1,21 @@
+1) pom.xml (Flink + Kafka connector + Jackson)
+2) docker-compose.yml (Local Kafka + Flink)
+3) Core Models
+4) JSON Serde
+5) Watermarks
+6) The Keyed Stateful Processor (the “heart”)
+7) Kafka Config + Flink App Wiring
+
+This maintains:
+
+Activity minute buckets for last 24h (1,440 buckets max)
+
+Messaging hour buckets for last 7d/24h (168 buckets max for 7d)
+
+Last sent per channel
+
+Emits a refreshed MemberMessagingFeatures snapshot on updates and on cleanup timers
+8) Sample Producer Script (optional but great for portfolio demos)
+install deps: 
+pip install kafka-python
+9) README.md (what recruiters love)

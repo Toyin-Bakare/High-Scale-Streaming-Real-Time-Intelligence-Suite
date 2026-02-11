@@ -1,0 +1,21 @@
+messaging-feature-store-flink/
+  README.md
+  pom.xml
+  docker-compose.yml
+  scripts/
+    produce_sample_events.py
+  src/
+    main/
+      java/
+        com/example/messaging/
+          App.java
+          config/KafkaConfig.java
+          model/
+            ActivityEvent.java
+            MessagingEvent.java
+            UnifiedEvent.java
+            MemberMessagingFeatures.java
+          serde/JsonSerde.java
+          stream/
+            UnifiedFeatureProcessFunction.java
+            Watermarks.java
