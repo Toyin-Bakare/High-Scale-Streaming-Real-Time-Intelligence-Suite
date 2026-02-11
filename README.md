@@ -45,7 +45,7 @@ A Change Data Capture (CDC) pipeline that monitors a relational database (Postgr
 
 ### 4. Index Freshness + Incremental Updates (CDC + Replay + Lag Monitoring)
 
-This repo demonstrates a production-style pattern: Source DB (truth) + CDC event log with monotonically increasing offsets; Incremental indexer that consumes CDC and updates an index idempotently; Replay/backfill tooling; Freshness monitoring (lag) + health API
+Source DB (truth) + CDC event log with monotonically increasing offsets; Incremental indexer that consumes CDC and updates an index idempotently; Replay/backfill tooling; Freshness monitoring (lag) + health API
 
 **Focus:** Real Time updates, reduces potential of stale updates
 
