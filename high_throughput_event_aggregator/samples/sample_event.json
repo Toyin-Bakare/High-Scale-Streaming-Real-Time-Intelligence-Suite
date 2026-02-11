@@ -1,0 +1,14 @@
+{
+  "event_id": "3c9b4a2c-1b14-4f05-9d0e-2d2f4f8b5f1a",
+  "event_type": "request",
+  "metric": "requests",
+  "value": 1.0,
+  "user_id": "u-123456",
+  "customer_id": "cust_042",
+  "endpoint": "/api/search",
+  "status": "200",
+  "ts": "2026-02-07T12:00:05+00:00",
+  "extra": {
+    "source": "demo"
+  }
+}
