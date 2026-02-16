@@ -15,7 +15,8 @@ Messaging hour buckets for last 7d/24h (168 buckets max for 7d)
 Last sent per channel
 
 Emits a refreshed MemberMessagingFeatures snapshot on updates and on cleanup timers
-8) Sample Producer Script (optional but great for portfolio demos)
+8) Sample Producer Script (optional but great for demos)
 install deps: 
 pip install kafka-python
-9) README.md (what recruiters love)
+
+9) README.md 
